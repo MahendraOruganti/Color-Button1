@@ -1,0 +1,114 @@
+*{
+    padding: 0; 
+    margin: 0;
+
+ }
+ body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+/* Style for the color swatch container */
+.color-swatch {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: white;  
+}
+.main{
+/*    display: inline-block;*/
+     padding-left: 1000px;
+}
+.viewport h5{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.viewport{
+    box-shadow: 2px 5px 3px ;
+    border:2px solid black;
+    padding-bottom: 50px;
+    width: 40%;
+    margin: auto;
+    height:100px;
+    text-align: center;
+    display: none;
+   
+}
+
+.viewport.open {
+    display: block;
+}
+
+
+.color-swatch{
+    margin: 0;
+    border: 2px solid black;
+    width:30px ;
+    height:30px; 
+    border-radius: 50%;  
+}
+.nav-bg h2{
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+.nav-bg span{
+/*    color: palegoldenrod;*/
+}
+.nav-bg{
+    background-color: skyblue;
+}
+.nav-bg .home ul{
+    padding-top: 20px;
+}
+.nav-bg .home ul li{
+    padding-left: 5px;
+}
+.container{
+   width:80%;
+   margin: auto;
+}
+.icons{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.light-mode{
+   
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.home-content{
+/*    padding-top: 100px;*/
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+/*    text-align: center;*/
+}
+.home-content a{
+    color: white;
+    background-color: blue;
+    padding: 8px 25px;
+
+}
+
